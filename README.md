@@ -17,6 +17,11 @@
 `git clone https://github.com/Sayafx/Typecho-replit-Pgsql && mv -b Typecho-replit-Pgsql/* ./ && mv -b Typecho-replit-Pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho-replit-Pgsql`
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
+当clone中出现以下文字时，按说明操作
+    初始化完毕
+    将文件run.sh第一行的1删去之后单击绿色 ▶ Run按钮
+    等待小窗口出现后，开始在shell中手动配置数据库
+
 
 在运行完成出现typecho后 点击Shell 在终端中逐行输入以下内容：
 ```
