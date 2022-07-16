@@ -11,36 +11,6 @@ git clone https://github.com/typecho/typecho
 fi
 
 
-#butterfly
-
-
-#判断文件存在，判断是否为文件夹等
-
-butterfly="typecho/usr/themes/butterfly"
-
-#testFile="/Volumes/MacBookProHD/Mr.Wen/08 shell命令/fileWen"
-
-  
-
-#判断文件夹是否存在 -d
-
-if [[ ! -d "$butterfly" ]]; then
-
-echo "butterfly文件夹不存在，安装主题"
-
-cd typecho/usr/themes
-wget https://github.com/wehaox/Typecho-Butterfly/releases/download/1.5.3/butterfly_Release1.5.3-fix.zip
-unzip butterfly_Release1.5.3-fix.zip
-#after download if you dont have reCAPTCHA plugin del file usr/themes/butterfly/functions.php line 1528-1529 
-rm -rf butterfly_Release1.5.3-fix.zip
-cd ../../..
-
-else
-
-echo "butterfly文件夹存在，不进行安装"
-
-fi
-
 a=$(awk '{print $1}' run.sh)
 b=1
 
