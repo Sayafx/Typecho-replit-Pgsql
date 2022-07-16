@@ -1,7 +1,7 @@
 # Typecho-replit-Pgsql
 
 在Replit部署typecho并使用postgresql数据库
-# 仍在修改 不可使用
+
 # 修改内容
 
 更改一条代码，避免出现数据库已存在而无法给予权限的问题
@@ -28,7 +28,7 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 ```
 
 在新窗口打开你的typecho安装界面
-新窗口打不开，在小窗口安装
+如果新窗口打不开，在小窗口安装
 安装好等待片刻就可以在新窗口打开了
 
 选择Pgsql原生函数适配器
