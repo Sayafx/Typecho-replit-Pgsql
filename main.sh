@@ -61,7 +61,7 @@ cd typecho/usr/plugins
 mkdir Snow
 cd Snow
 git clone https://github.com/journey-ad/Snow-Typecho-Plugin.git && mv -b Snow-Typecho-Plugin/* ./ && mv -b Snow-Typecho-Plugin/.[^.]* ./ && rm -rf *~ && rm -rf Snow-Typecho-Plugin
-
+cd ../../..
 
 else
 
@@ -82,7 +82,7 @@ LoginDesigner="typecho/usr/plugins/LoginDesigner"
 #判断文件夹是否存在 -d
 
 if [[ ! -d "$LoginDesigner" ]]; then
-cd ../../..
+
 cd typecho/usr/plugins
 
 echo "LoginDesigner文件夹不存在，安装插件LoginDesigner"
@@ -91,7 +91,7 @@ echo "LoginDesigner文件夹不存在，安装插件LoginDesigner"
 mkdir LoginDesigner
 cd LoginDesigner
 git clone https://github.com/Sayafx/LoginDesigner/ && mv -b LoginDesigner/* ./ && mv -b LoginDesigner/.[^.]* ./ && rm -rf *~ && rm -rf LoginDesigner
-
+cd ../../../..
 
 else
 
@@ -102,6 +102,6 @@ fi
 
 
 
-cd ../../..
+
 php -S 0.0.0.0:8000 -t typecho
 
