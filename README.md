@@ -1,7 +1,7 @@
 # Typecho-replit-Pgsql
 
 在Replit部署typecho并使用postgresql数据库
-
+# 仍在修改 不可使用
 # 修改内容
 
 更改一条代码，避免出现数据库已存在而无法给予权限的问题
