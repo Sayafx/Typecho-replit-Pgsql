@@ -101,7 +101,8 @@ echo "LoginDesigner文件夹存在，不进行安装"
 fi
 
 echo "初始化完毕"
-echo "单击Run按钮，等待小窗口出现后，开始配置数据库"
+echo "删除main.sh最后一行的 # 之后单击绿色 ▶ Run按钮"
+echo "等待小窗口出现后，开始在shell中手动配置数据库"
 
 #php -S 0.0.0.0:8000 -t typecho
 
