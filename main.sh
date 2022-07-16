@@ -27,6 +27,7 @@ butterfly="typecho/usr/themes/butterfly"
 if [[ ! -d "$butterfly" ]]; then
 
 echo "butterfly文件夹不存在，安装主题"
+
 cd typecho/usr/themes
 wget https://github.com/wehaox/Typecho-Butterfly/releases/download/1.5.3/butterfly_Release1.5.3-fix.zip
 unzip butterfly_Release1.5.3-fix.zip
@@ -54,6 +55,7 @@ Snow="typecho/usr/plugins/Snow"
 if [[ ! -d "$Snow" ]]; then
 
 echo "Snow文件夹不存在，安装插件Snow"
+cd -
 cd typecho/usr/plugins
 mkdir Snow
 cd Snow
@@ -80,6 +82,7 @@ LoginDesigner="typecho/usr/plugins/LoginDesigner"
 if [[ ! -d "$LoginDesigner" ]]; then
 
 echo "LoginDesigner文件夹不存在，安装插件LoginDesigner"
+cd -
 cd typecho/usr/plugins
 mkdir LoginDesigner
 cd LoginDesigner
