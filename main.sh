@@ -82,7 +82,7 @@ LoginDesigner="typecho/usr/plugins/LoginDesigner"
 #判断文件夹是否存在 -d
 
 if [[ ! -d "$LoginDesigner" ]]; then
-cd ../..
+cd ../../..
 cd typecho/usr/plugins
 
 echo "LoginDesigner文件夹不存在，安装插件LoginDesigner"
