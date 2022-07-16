@@ -92,6 +92,7 @@ mkdir LoginDesigner
 cd LoginDesigner
 git clone https://github.com/Sayafx/LoginDesigner/ && mv -b LoginDesigner/* ./ && mv -b LoginDesigner/.[^.]* ./ && rm -rf *~ && rm -rf LoginDesigner
 cd ../../../..
+php -S 0.0.0.0:8000 -t typecho
 
 else
 
@@ -99,9 +100,6 @@ echo "LoginDesigner文件夹存在，不进行安装"
 
 fi
 
-
-
-
-
 php -S 0.0.0.0:8000 -t typecho
+
 
